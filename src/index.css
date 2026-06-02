@@ -4,3 +4,26 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+body{
+  background-image: url('/public/sacu.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@media (width <= 1000px){
+  body{
+  background-image: url('/public/sacu.jpg');
+
+}
+}
+
+main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
